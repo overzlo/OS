@@ -1,0 +1,24 @@
+
+
+label {
+    display: block;
+    margin-bottom: .5em;
+  }
+
+.step{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.input{
+  display: flex;
+  justify-content: space-evenly;
+}
+.headers{
+  text-align: center;
+}
+.caption{
+
+  list-style-type: none;
+  }

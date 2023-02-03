@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <div class="input">
+      <div class="firstclass"><label>Load AC from memory: <input name="load" id="load" value="0100"></label>
+        <label>Store AC to memory: <input name="store" id="store" value="0110"></label>
+        <label>Add to AC from memory  <input name="add" id="add" value="0101"></label>
+      </div>
+        
+      
+  
+    <div class="secondclass">
+      <label>Load AC from memory: <input name="loadI" id="loadI" value="002"></label>
+      <label>Store AC to memory: <input name="storeI" id="storeI" value="007"></label>
+      <label>Add to AC from memory  <input name="addI" id="addI" value="240"></label>
+    </div>
+
+     
+
+    <div class="thirdclass">
+
+      <label>Value from Load: <input name="Vload" id="Vload" value="0005"></label>
+      <label>Value from Store:  <input name="Vstore" id="Vstore" value="0000"></label>
+      <label>Value from Add: <input name="Vadd" id="Vadd" value="0007"></label>
+    </div>
+  </div>
+  
+      <div class="step"><button onclick="inHEX()" >RUN</button></div>
+      <!-- <button onclick="GO()">Try it</button> -->
+
+      <div class="main-step">
+      <!-- first step -->
+    <div class="headers"><h2>FIRST STEP</h2></div>
+
+    <div class="step">
+      <ol id = "firststep">
+        <li class="caption"><h3>Memory</h3></li>
+        <li value="300"><p class = "first1"></p></li>
+        <li ><p class ="first2"></p></li>
+        <li ><p class ="first3"></p></li>
+      </ol>
+
+      <ol >
+        <li class = "valueLI1"><p class= "second1"></p></li>
+        <li class = "valueLI2"><p class= "second2"></p></li>
+        <li class = "valueLI3"><p class= "second3"></p></li>
+
+      </ol>
+
+      <ul type ='square'>
+        <li class="caption"><h3>CPU</h3></li>
+        <li><p class = "third1"></p></li>
+        <li><p class = "third2"></p></li>
+        <li<p class = "third3"></p></li>
+      </ul>
+    </div>
+
+
+    <!-- second step -->
+    <div class="headers"><h2>SECOND STEP</h2></div>
+
+    <div class="step">
+      <ol id = "firststep">
+        <li class="caption"><h3>Memory</h3></li>
+        <li value="300"><p class = "first1"></p></li>
+        <li ><p class ="first2"></p></li>
+        <li ><p class ="first3"></p></li>
+      </ol>
+
+      <ol >
+        <li class = "valueLI1"><p class= "second1"></p></li>
+        <li class = "valueLI2"><p class= "second2"></p></li>
+        <li class = "valueLI3"><p class= "second3"></p></li>
+
+      </ol>
+
+      <ul type ='square'>
+        <li class="caption"><h3>CPU</h3></li>
+        <li><p class = "third1"></p></li>
+        <li><p class = "third2"></p></li>
+        <li<p class = "third3"></p></li>
+      </ul>
+    </div>
+
+    <!-- third step -->
+    <div class="headers"><h2>THIRD STEP</h2></div>
+    
+    <div class="step">
+      <ol id = "firststep">
+        <li class="caption"><h3>Memory</h3></li>
+        <li value="300"><p class = "first1"></p></li>
+        <li ><p class ="first2"></p></li>
+        <li ><p class ="first3"></p></li>
+      </ol>
+
+      <ol >
+        <li class = "valueLI1"><p class= "second1"></p></li>
+        <li class = "valueLI2"><p class= "second2"></p></li>
+        <li class = "valueLI3"><p class= "second3"></p></li>
+
+      </ol>
+
+      <ul type ='square'>
+        <li class="caption"><h3>CPU</h3></li>
+        <li><p class = "third1"></p></li>
+        <li><p class = "third2"></p></li>
+        <li<p class = "third3"></p></li>
+      </ul>
+    </div>
+
+    <!-- fourth step -->
+
+    <div class="headers"><h2>FOURTH STEP</h2></div>
+
+    <div class="step">
+      <ol id = "firststep">
+        <li class="caption"><h3>Memory</h3></li>
+        <li value="300"><p class = "first1"></p></li>
+        <li ><p class ="first2"></p></li>
+        <li ><p class ="first3"></p></li>
+      </ol>
+
+      <ol >
+        <li class = "valueLI1"><p class= "second1"></p></li>
+        <li class = "valueLI2"><p class= "second2"></p></li>
+        <li class = "valueLI3"><p class= "second3"></p></li>
+
+      </ol>
+
+      <ul type ='square'>
+        <li class="caption"><h3>CPU</h3></li>
+        <li><p class = "third1"></p></li>
+        <li><p class = "third2"></p></li>
+        <li<p class = "third3"></p></li>
+      </ul>
+    </div>
+
+    <!-- fifth step -->
+    <div class="headers"><h2>FIFTH STEP</h2></div>
+
+    <div class="step">
+      <ol id = "firststep">
+        <li class="caption"><h3>Memory</h3></li>
+        <li value="300"><p class = "first1"></p></li>
+        <li ><p class ="first2"></p></li>
+        <li ><p class ="first3"></p></li>
+      </ol>
+
+      <ol >
+        <li class = "valueLI1"><p class= "second1"></p></li>
+        <li class = "valueLI2"><p class= "second2"></p></li>
+        <li class = "valueLI3"><p class= "second3"></p></li>
+
+      </ol>
+
+      <ul type ='square'>
+        <li class="caption"><h3>CPU</h3></li>
+        <li><p class = "third1"></p></li>
+        <li><p class = "third2"></p></li>
+        <li<p class = "third3"></p></li>
+      </ul>
+    </div>
+
+    <!-- six step -->
+    <div class="headers"><h2>SIXTH STEP</h2></div>
+
+    <div class="step">
+      <ol id = "firststep">
+        <li class="caption"><h3>Memory</h3></li>
+        <li value="300"><p class = "first1"></p></li>
+        <li ><p class ="first2"></p></li>
+        <li ><p class ="first3"></p></li>
+      </ol>
+
+      <ol >
+        <li class = "valueLI1"><p class= "second1"></p></li>
+        <li class = "valueLI2"><p class= "second2"></p></li>
+        <li class = "valueLI3"><p class= "second3"></p></li>
+
+      </ol>
+
+      <ul type ='square'>
+        <li class="caption"><h3>CPU</h3></li>
+        <li><p class = "third1"></p></li>
+        <li><p class = "third2"></p></li>
+        <li<p class = "third3"></p></li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+<script src="index.js">
+
+
+</script>
+</html>
