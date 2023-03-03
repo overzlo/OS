@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index4.css">
+
+    <title>lab4&5</title>
+</head>
+<body>
+           
+    <div class="title"> <h1>LAB4&LAB5</h1></div>
+    <div class="header">
+        <h1>Direct Mapping Cashe</h1>
+    </div>
+    <div class="main">
+    <div class="firstclass">
+        <label>Adress size<input name="adress" id="adressS" value="32"></label>
+        <label>Cashe memory size <input name="mainmA in KB" id="mainmA" value="16"></label>
+        <select id="type2">
+            <option  id="byte2">Byte</option>
+            <option selected id="kb2">KB</option>
+            <option id="mb2">MB</option>
+        </select>
+        <label>Block size  <input name="blockS" id="blockS" value="8"></label>
+        <select id="type3">
+            <option selected id="byte3">Byte</option>
+            <option id="kb3">KB</option>
+            <option id="mb3">MB</option>
+            </select>
+
+        </div>
+            <div class="step2">
+                <ul id = "firststep">
+                  <li ><p class = "first1">Tag</p></li>
+                  <li ><p class ="first2">Index</p></li>
+                  <li ><p class ="first3">Offset</p></li>
+                </ul>
+          
+             
+              </div>
+
+    </div>
+    
+
+
+    <div class="header">
+        <h1>Set Associative Cache </h1>
+    </div>
+    <div class="main">
+
+    <div class="firstclass">
+        <label>Adress size<input name="adresSS" id="adressA" value="32"></label>
+        <label>Cashe memory size <input name="mainmS" id="mainmS" value="32"></label>
+        <select id="type4">
+            <option  id="byte4">Byte</option>
+            <option selected id="kb4">KB</option>
+            <option id="mb4">MB</option>
+        </select>
+        <label>K-WAY <input name="way" id="wayS" value="8"></label>
+        <label>Block size  <input name="blockS" id="blockSA" value="4"></label>
+        <select id="type5">
+            <option  selected id="byte5">Byte</option>
+            <option  id="kb5">KB</option>
+            <option id="mb5">MB</option>
+            </select>
+
+        </div>
+            <div class="step2">
+                <ul id = "firststep">
+                  <li ><p class = "first4">Tag</p></li>
+                  <li ><p class ="first5">Index</p></li>
+                  <li ><p class ="first6">Offset</p></li>
+                </ul>
+          
+             
+              </div>
+
+              
+
+
+    </div>
+
+<div class="step"><button type="submit" onclick="Run()" >RUN</button></div>
+    
+
+</body>
+
+<script src="lab4.js"></script>
+
+</html>
